@@ -52,7 +52,7 @@
 <script lang="ts" setup>
 import { ref } from 'vue'
 
-const activeNames = ref(['1'])
+const activeNames = ref(['2'])
 const handleChange = (val: string[]) => {
   console.log(val)
 }
